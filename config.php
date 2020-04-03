@@ -1,14 +1,14 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/armoni/');
+define('HTTP_SERVER', 'http://localhost/ard-opencart/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/armoni/');
+define('HTTPS_SERVER', 'http://localhost/ard-opencart/');
 
 // DIR
-define('DIR_APPLICATION', 'C:/xampp/htdocs/armoni/catalog/');
-define('DIR_SYSTEM', 'C:/xampp/htdocs/armoni/system/');
-define('DIR_IMAGE', 'C:/xampp/htdocs/armoni/image/');
+define('DIR_APPLICATION', 'C:/xampp/htdocs/ard-opencart/catalog/');
+define('DIR_SYSTEM', 'C:/xampp/htdocs/ard-opencart/system/');
+define('DIR_IMAGE', 'C:/xampp/htdocs/ard-opencart/image/');
 define('DIR_STORAGE', 'C:/xampp/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
