@@ -1,0 +1,79 @@
+.step {
+	color: #ccc;
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.step .step1 img {
+	width: 50px;
+	margin-bottom: 15px;
+}
+
+.step1 {
+	display: inline-block;
+	width: 180px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.step1 .fa {
+	background: #ccc;
+	width: 18px;
+	height: 18px;
+	color: #fff;
+	border-radius: 50%;
+	padding: 2.6px;
+	margin-bottom: 12px;
+}
+
+.step1 .fa:after {
+	content: '';
+	background: #ccc;
+	height: 6px;
+	width: 200px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 71px;
+	z-index: -1;
+}
+
+.step1 .complete {
+	color: #5c6174;
+}
+
+.step1 .complete .fa {
+	background: #5c6174;
+}
+
+.step1 .complete .fa:after {
+	background: #5c6174;
+}
+
+.step1 .proges {
+	color: #5ec1e8;
+}
+
+.step1 .proges .fa {
+	background: #5ec1e8;
+}
+
+.step1 .proges .fa::after {
+	background: #5ec1e8;
+}
+
+.step1:first-child .fa:after {
+	position: absolute;
+	left: 50%
+}
+
+.step1:last-child .fa:after {
+	position: absolute;
+	left: -56.5%
+}
+
+.step1:nth-child(2) .fa:after,
+.step1:nth-child(3) .fa:after {
+	left: -54%
+}
