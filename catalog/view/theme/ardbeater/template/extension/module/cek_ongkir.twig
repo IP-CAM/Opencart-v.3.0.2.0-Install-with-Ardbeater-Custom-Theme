@@ -30,7 +30,7 @@
             <input type="text" name="weight" value="{{ weight }}" placeholder="{{ entry_weight }}" id="input-weight" onkeypress="return event.charCode >= 48 && event.charCode <=57" class="form-control" />
           </div>
         </div>
-        <button type="button" id="button-quote" data-loading-text="{{ text_loading }}" class="btn btn-warning" style="float:right">{{ button_quote }}</button>
+        <button type="button" id="button-quote" data-loading-text="{{ text_loading }}" class="btn btn-primary" style="float:right">{{ button_quote }}</button>
       </div>
       <script type="text/javascript"><!--
 $('#button-quote').on('click', function() {
@@ -76,7 +76,7 @@ $('#button-quote').on('click', function() {
 				html += '    <div class="modal-content" style="width:700px">';
 				html += '      <div class="modal-header">';
 				html += '		 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>';
-				html += '        <h3 class="modal-title">&#128666; <strong>{{ text_ongkir_method }}</strong></h3>';
+				html += '        <h3 class="modal-title">&#128666; {{ text_ongkir_method }}</h3>';
 				html += '      </div><hr class="gradient-divider"></hr>';
 				html += '      <div class="modal-body">';
 

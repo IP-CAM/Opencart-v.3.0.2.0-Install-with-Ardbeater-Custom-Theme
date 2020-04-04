@@ -14,7 +14,7 @@
             <input type="text" name="e_mail" value="{{ e_mail }}" placeholder="E-Mail Address" id="input-e-mail" class="form-control" />
           </div>
         </div>
-        <button type="button" id="button-order" data-loading-text="{{ text_loading }}" class="btn btn-danger"  style="float:right">View Order</button>
+        <button type="button" id="button-order" data-loading-text="{{ text_loading }}" class="btn btn-primary"  style="float:right">View Order</button>
       </div>
       <script type="text/javascript"><!--
 $('#button-order').on('click', function() {
@@ -56,7 +56,7 @@ $('#button-order').on('click', function() {
 				html += '    <div class="modal-content" style="width:1000px">';
 				html += '      <div class="modal-header">';
 				html += '		 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>';
-				html += '        <h3 class="modal-title">&#128722; <strong>' + json['heading_title'] + '</strong></h3>';
+				html += '        <h3 class="modal-title">&#128722; ' + json['heading_title'] + '</h3>';
 				html += '      </div><hr class="gradient-divider"></hr>';
 				html += '      <div class="modal-body">';
 							if (json['histories']) {
